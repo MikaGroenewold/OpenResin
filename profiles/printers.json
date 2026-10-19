@@ -1,0 +1,3440 @@
+[
+ {
+  "id": "anycubic-photon",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "pws"
+  ],
+  "native_formats": [
+   "photon",
+   "pws"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-d2",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon D2",
+  "resolution_x": 2560,
+  "resolution_y": 1440,
+  "size_x": 130.56,
+  "size_y": 73.44,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "dl2p"
+  ],
+  "native_formats": [
+   "dl2p"
+  ]
+ },
+ {
+  "id": "anycubic-photon-m3",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon M3",
+  "resolution_x": 4096,
+  "resolution_y": 2560,
+  "size_x": 163.92,
+  "size_y": 102.4,
+  "size_z": 180.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm3"
+  ],
+  "native_formats": [
+   "pm3"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-m3-max",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon M3 Max",
+  "resolution_x": 6480,
+  "resolution_y": 3600,
+  "size_x": 298.08,
+  "size_y": 165.6,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm3m"
+  ],
+  "native_formats": [
+   "pm3m"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-m3-plus",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon M3 Plus",
+  "resolution_x": 5760,
+  "resolution_y": 3600,
+  "size_x": 197.0,
+  "size_y": 122.8,
+  "size_z": 245.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwmb"
+  ],
+  "native_formats": [
+   "pwmb"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwmo"
+  ],
+  "native_formats": [
+   "pwmo"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono-2",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono 2",
+  "resolution_x": 4096,
+  "resolution_y": 2560,
+  "size_x": 143.36,
+  "size_y": 89.1,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm3n"
+  ],
+  "native_formats": [
+   "pm3n"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono-4",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon Mono 4",
+  "resolution_x": 9024,
+  "resolution_y": 5120,
+  "size_x": 153.408,
+  "size_y": 87.04,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm4n"
+  ],
+  "native_formats": [
+   "pm4n"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-4-ultra",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon Mono 4 Ultra",
+  "resolution_x": 9024,
+  "resolution_y": 5120,
+  "size_x": 153.408,
+  "size_y": 87.04,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "pm4u"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-4k",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 134.4,
+  "size_y": 84.0,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwma"
+  ],
+  "native_formats": [
+   "pwma"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono-m5",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono M5",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 122.88,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm5"
+  ],
+  "native_formats": [
+   "pm5"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-m5s",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono M5s",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 122.88,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm5s"
+  ],
+  "native_formats": [
+   "pm5s"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-m5s-pro",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono M5s Pro",
+  "resolution_x": 13312,
+  "resolution_y": 5120,
+  "size_x": 223.642,
+  "size_y": 126.48,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "m5sp"
+  ],
+  "native_formats": [
+   "m5sp"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-m7",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon Mono M7",
+  "resolution_x": 13312,
+  "resolution_y": 5120,
+  "size_x": 223.642,
+  "size_y": 126.48,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "pm7"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-m7-max",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon Mono M7 Max",
+  "resolution_x": 6480,
+  "resolution_y": 3600,
+  "size_x": 297.5,
+  "size_y": 164.0,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "pm7m"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-m7-pro",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon Mono M7 Pro",
+  "resolution_x": 13312,
+  "resolution_y": 5120,
+  "size_x": 223.642,
+  "size_y": 126.48,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "pwsz"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-se",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono SE",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 160.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwms"
+  ],
+  "native_formats": [
+   "pwms"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono-x",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono X",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 245.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwmx"
+  ],
+  "native_formats": [
+   "pwmx"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono-x-6k",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono X 6K",
+  "resolution_x": 5760,
+  "resolution_y": 3600,
+  "size_x": 198.144,
+  "size_y": 123.84,
+  "size_z": 245.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwmb"
+  ],
+  "native_formats": [
+   "pwmb"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-mono-x2",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono X2",
+  "resolution_x": 4096,
+  "resolution_y": 2560,
+  "size_x": 196.7,
+  "size_y": 122.938,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "pmx2"
+  ],
+  "native_formats": [
+   "pmx2"
+  ]
+ },
+ {
+  "id": "anycubic-photon-mono-x6ks",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Mono X6Ks",
+  "resolution_x": 5760,
+  "resolution_y": 3600,
+  "size_x": 195.84,
+  "size_y": 122.4,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "px6s"
+  ],
+  "native_formats": [
+   "px6s"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-p1",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon P1",
+  "resolution_x": 13312,
+  "resolution_y": 5120,
+  "size_x": 223.642,
+  "size_y": 125.976,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "pp1"
+  ]
+ },
+ {
+  "id": "anycubic-photon-p1-max",
+  "vendor": "Anycubic",
+  "name": "Anycubic Photon P1 Max",
+  "resolution_x": 11520,
+  "resolution_y": 8640,
+  "size_x": 285.5,
+  "size_y": 214.0,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "pp1m"
+  ]
+ },
+ {
+  "id": "anycubic-photon-s",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon S",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "photons"
+  ]
+ },
+ {
+  "id": "anycubic-photon-sq",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon SQ",
+  "resolution_x": 2400,
+  "resolution_y": 2560,
+  "size_x": 120.0,
+  "size_y": 128.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "pmsq"
+  ],
+  "native_formats": [
+   "pmsq"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-ultra",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Ultra",
+  "resolution_x": 1280,
+  "resolution_y": 720,
+  "size_x": 102.4,
+  "size_y": 57.6,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "dlp"
+  ],
+  "native_formats": [
+   "dlp"
+  ],
+  "network": "anycubic"
+ },
+ {
+  "id": "anycubic-photon-x",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon X",
+  "resolution_x": 2560,
+  "resolution_y": 1600,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 245.0,
+  "mirror": "lcd",
+  "formats": [
+   "pwx"
+  ],
+  "native_formats": [
+   "pwx"
+  ]
+ },
+ {
+  "id": "anycubic-photon-zero",
+  "vendor": "Anycubic",
+  "name": "AnyCubic Photon Zero",
+  "resolution_x": 480,
+  "resolution_y": 854,
+  "size_x": 55.44,
+  "size_y": 98.64,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "pw0"
+  ],
+  "native_formats": [
+   "pw0"
+  ]
+ },
+ {
+  "id": "anycubic-default",
+  "vendor": "Anycubic",
+  "name": "Default",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "pm3r"
+  ],
+  "native_formats": [
+   "pm3r"
+  ],
+  "network": "anycubic",
+  "machine_type": "AnyCubic Photon M3 Premium"
+ },
+ {
+  "id": "other-carima-dm400",
+  "vendor": "Carima",
+  "name": "Carima DM400",
+  "resolution_x": 4240,
+  "resolution_y": 3840,
+  "size_x": 420.0,
+  "size_y": 380.0,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imc-110",
+  "vendor": "Carima",
+  "name": "Carima IMC-110",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 110.0,
+  "size_y": 61.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imc-57",
+  "vendor": "Carima",
+  "name": "Carima IMC-57",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 57.0,
+  "size_y": 32.0,
+  "size_z": 100.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imc-76",
+  "vendor": "Carima",
+  "name": "Carima IMC-76",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 76.0,
+  "size_y": 42.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imc-96",
+  "vendor": "Carima",
+  "name": "Carima IMC-96",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 96.0,
+  "size_y": 54.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imd-110",
+  "vendor": "Carima",
+  "name": "Carima IMD-110",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 110.0,
+  "size_y": 61.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imd-124",
+  "vendor": "Carima",
+  "name": "Carima IMD-124",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 124.0,
+  "size_y": 70.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imd-57",
+  "vendor": "Carima",
+  "name": "Carima IMD-57",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 57.0,
+  "size_y": 32.0,
+  "size_z": 100.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imd-76",
+  "vendor": "Carima",
+  "name": "Carima IMD-76",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 76.0,
+  "size_y": 42.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-imd-96",
+  "vendor": "Carima",
+  "name": "Carima IMD-96",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 96.0,
+  "size_y": 54.0,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "other-carima-iml",
+  "vendor": "Carima",
+  "name": "Carima IML",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 142.0,
+  "size_y": 88.0,
+  "size_z": 100.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "carima-lm1",
+  "vendor": "Carima",
+  "name": "Carima LM1",
+  "resolution_x": 2560,
+  "resolution_y": 1620,
+  "size_x": 130.0,
+  "size_y": 80.0,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cws"
+  ]
+ },
+ {
+  "id": "other-carima-x1",
+  "vendor": "Carima",
+  "name": "Carima X1",
+  "resolution_x": 4240,
+  "resolution_y": 3840,
+  "size_x": 320.0,
+  "size_y": 289.81,
+  "size_z": 500.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "crmaslice"
+  ]
+ },
+ {
+  "id": "creality-ld-002h",
+  "vendor": "Creality",
+  "name": "CREALITY LD-002H",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 160.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "creality-ld-002r",
+  "vendor": "Creality",
+  "name": "CREALITY LD-002R",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 160.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "creality-ld-006",
+  "vendor": "Creality",
+  "name": "CREALITY LD-006",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "creality-halot-lite",
+  "vendor": "Creality",
+  "name": "HALOT-LITE",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "none",
+  "formats": [
+   "cxdlp"
+  ],
+  "native_formats": [
+   "cxdlp"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-mage",
+  "vendor": "Creality",
+  "name": "HALOT-MAGE",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4",
+   "ctb"
+  ],
+  "native_formats": [
+   "cxdlpv4",
+   "ctb"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-mage-pro",
+  "vendor": "Creality",
+  "name": "HALOT-MAGE PRO",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "halot-mage-s",
+  "vendor": "Creality",
+  "name": "HALOT-MAGE S",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.0,
+  "size_y": 126.0,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-one",
+  "vendor": "Creality",
+  "name": "HALOT-ONE",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 81.0,
+  "size_y": 128.0,
+  "size_z": 160.0,
+  "mirror": "none",
+  "formats": [
+   "cxdlp"
+  ],
+  "native_formats": [
+   "cxdlp"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-one-plus",
+  "vendor": "Creality",
+  "name": "HALOT-ONE PLUS",
+  "resolution_x": 4320,
+  "resolution_y": 2560,
+  "size_x": 172.8,
+  "size_y": 102.4,
+  "size_z": 160.0,
+  "mirror": "none",
+  "formats": [
+   "cxdlp"
+  ],
+  "native_formats": [
+   "cxdlp"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-one-pro",
+  "vendor": "Creality",
+  "name": "HALOT-ONE PRO",
+  "resolution_x": 2560,
+  "resolution_y": 2400,
+  "size_x": 130.56,
+  "size_y": 122.4,
+  "size_z": 160.0,
+  "mirror": "none",
+  "formats": [
+   "cxdlp"
+  ],
+  "native_formats": [
+   "cxdlp"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-play",
+  "vendor": "Creality",
+  "name": "HALOT-PLAY",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "none",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-r6",
+  "vendor": "Creality",
+  "name": "HALOT-R6",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 160.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ]
+ },
+ {
+  "id": "creality-halot-ray",
+  "vendor": "Creality",
+  "name": "HALOT-RAY",
+  "resolution_x": 5760,
+  "resolution_y": 3600,
+  "size_x": 198.14,
+  "size_y": 123.84,
+  "size_z": 210.0,
+  "mirror": "none",
+  "formats": [
+   "cxdlp"
+  ],
+  "native_formats": [
+   "cxdlp"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-sky-2025",
+  "vendor": "Creality",
+  "name": "HALOT-SKY 2025",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-x1",
+  "vendor": "Creality",
+  "name": "HALOT-X1",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-x1-max",
+  "vendor": "Creality",
+  "name": "HALOT-X1 Max",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 302.4,
+  "size_y": 161.98,
+  "size_z": 350.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "creality-halot-x1-neo",
+  "vendor": "Creality",
+  "name": "HALOT-X1 Neo",
+  "resolution_x": 8520,
+  "resolution_y": 4320,
+  "size_x": 153.36,
+  "size_y": 77.76,
+  "size_z": 160.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "elegoo-jupiter",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Jupiter",
+  "resolution_x": 5448,
+  "resolution_y": 3064,
+  "size_x": 277.848,
+  "size_y": 156.264,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-jupiter-2",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Jupiter 2",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 302.4,
+  "size_y": 161.98,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo"
+  ],
+  "native_formats": [
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-jupiter-se",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Jupiter Se",
+  "resolution_x": 5448,
+  "resolution_y": 3064,
+  "size_x": 277.848,
+  "size_y": 156.264,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-mars",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ]
+ },
+ {
+  "id": "elegoo-mars-2",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 2",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-mars-2-pro",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 2 Pro",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 160.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-mars-3",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 3",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 143.43,
+  "size_y": 89.6,
+  "size_z": 175.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-mars-3-pro",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 3 Pro",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 143.43,
+  "size_y": 89.6,
+  "size_z": 175.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-mars-4",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 4",
+  "resolution_x": 8520,
+  "resolution_y": 4320,
+  "size_x": 153.36,
+  "size_y": 77.76,
+  "size_z": 175.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo"
+  ],
+  "native_formats": [
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-mars-4-dlp",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 4 Dlp",
+  "resolution_x": 2560,
+  "resolution_y": 1440,
+  "size_x": 132.8,
+  "size_y": 74.7,
+  "size_z": 150.0,
+  "mirror": "none",
+  "formats": [
+   "goo"
+  ],
+  "native_formats": [
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-mars-4-max",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 4 Max",
+  "resolution_x": 5760,
+  "resolution_y": 3600,
+  "size_x": 195.84,
+  "size_y": 122.4,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo"
+  ],
+  "native_formats": [
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-mars-4-ultra",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 4 Ultra",
+  "resolution_x": 8520,
+  "resolution_y": 4320,
+  "size_x": 153.36,
+  "size_y": 77.76,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ],
+  "network": "sdcp"
+ },
+ {
+  "id": "elegoo-mars-5",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 5",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 143.43,
+  "size_y": 89.6,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo"
+  ],
+  "native_formats": [
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-mars-5-ultra",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars 5 Ultra",
+  "resolution_x": 8520,
+  "resolution_y": 4320,
+  "size_x": 153.36,
+  "size_y": 77.76,
+  "size_z": 165.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ],
+  "network": "sdcp"
+ },
+ {
+  "id": "elegoo-mars-c",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars C",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ]
+ },
+ {
+  "id": "elegoo-mars-pro",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Mars Pro",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-saturn",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-saturn-2",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 2",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-saturn-3",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 3",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 122.88,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-saturn-3-ultra",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 3 Ultra",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 122.88,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ],
+  "network": "sdcp"
+ },
+ {
+  "id": "elegoo-saturn-4",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 4",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 122.88,
+  "size_z": 220.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo"
+  ],
+  "native_formats": [
+   "goo"
+  ]
+ },
+ {
+  "id": "elegoo-saturn-4-ultra",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 4 Ultra",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 122.88,
+  "size_z": 220.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ],
+  "network": "sdcp"
+ },
+ {
+  "id": "elegoo-saturn-4-ultra-16k",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 4 Ultra 16K",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 220.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "goo"
+  ],
+  "network": "sdcp"
+ },
+ {
+  "id": "elegoo-saturn-8k",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn 8K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 210.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "elegoo-saturn-s",
+  "vendor": "ELEGOO",
+  "name": "ELEGOO Saturn S",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 196.704,
+  "size_y": 122.88,
+  "size_z": 210.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "emake3d-galaxy-1",
+  "vendor": "EMAKE3D",
+  "name": "Galaxy 1",
+  "resolution_x": 4000,
+  "resolution_y": 8000,
+  "size_x": 200.0,
+  "size_y": 400.0,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "qdx",
+   "qdt"
+  ]
+ },
+ {
+  "id": "epax-dx1-pro",
+  "vendor": "EPAX",
+  "name": "EPAX DX1 PRO",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 143.43,
+  "size_y": 89.6,
+  "size_z": 120.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-dx10-pro-5k",
+  "vendor": "EPAX",
+  "name": "EPAX DX10 PRO 5K",
+  "resolution_x": 4920,
+  "resolution_y": 2880,
+  "size_x": 221.4,
+  "size_y": 129.6,
+  "size_z": 120.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-dx10-pro-8k-8kw",
+  "vendor": "EPAX",
+  "name": "EPAX DX10 PRO 8K/8KW",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 120.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-e10-14k",
+  "vendor": "EPAX",
+  "name": "EPAX E10 14K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-e10-14kw",
+  "vendor": "EPAX",
+  "name": "EPAX E10 14KW",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 240.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-e10-4k",
+  "vendor": "EPAX",
+  "name": "EPAX E10 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-e10-5k",
+  "vendor": "EPAX",
+  "name": "EPAX E10 5K",
+  "resolution_x": 4920,
+  "resolution_y": 2880,
+  "size_x": 221.4,
+  "size_y": 129.6,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-e10-8k",
+  "vendor": "EPAX",
+  "name": "EPAX E10 8K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-e6",
+  "vendor": "EPAX",
+  "name": "EPAX E6",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 81.0,
+  "size_y": 128.0,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x1",
+  "vendor": "EPAX",
+  "name": "EPAX X1",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x1-4k",
+  "vendor": "EPAX",
+  "name": "EPAX X1-4K",
+  "resolution_x": 2160,
+  "resolution_y": 3840,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x1-4ks",
+  "vendor": "EPAX",
+  "name": "EPAX X1-4KS",
+  "resolution_x": 4098,
+  "resolution_y": 2560,
+  "size_x": 143.43,
+  "size_y": 89.6,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x10-14kw",
+  "vendor": "EPAX",
+  "name": "EPAX X10 14KW",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x10-2k-color",
+  "vendor": "EPAX",
+  "name": "EPAX X10 2K Color",
+  "resolution_x": 1600,
+  "resolution_y": 2560,
+  "size_x": 135.36,
+  "size_y": 216.576,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x10-4k",
+  "vendor": "EPAX",
+  "name": "EPAX X10 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x10-5k",
+  "vendor": "EPAX",
+  "name": "EPAX X10 5K",
+  "resolution_x": 4920,
+  "resolution_y": 2880,
+  "size_x": 221.4,
+  "size_y": 129.6,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x10-8k-8kw",
+  "vendor": "EPAX",
+  "name": "EPAX X10 8K/8kW",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x133-4k",
+  "vendor": "EPAX",
+  "name": "EPAX X133 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 293.76,
+  "size_y": 165.24,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x133-6k",
+  "vendor": "EPAX",
+  "name": "EPAX X133 6K",
+  "resolution_x": 5760,
+  "resolution_y": 3240,
+  "size_x": 288.0,
+  "size_y": 162.0,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x133-7k",
+  "vendor": "EPAX",
+  "name": "EPAX X133 7K",
+  "resolution_x": 6480,
+  "resolution_y": 3600,
+  "size_x": 298.08,
+  "size_y": 165.6,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "epax-x156-4k-color",
+  "vendor": "EPAX",
+  "name": "EPAX X156 4K Color",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 345.6,
+  "size_y": 194.4,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "epax-x160-8k",
+  "vendor": "EPAX",
+  "name": "EPAX X160 8K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 353.28,
+  "size_y": 198.72,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "epax-x1k",
+  "vendor": "EPAX",
+  "name": "EPAX X1K",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "flashforge-explorer-max",
+  "vendor": "Flashforge",
+  "name": "Flashforge Explorer Max",
+  "resolution_x": 2560,
+  "resolution_y": 1600,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "svgx"
+  ]
+ },
+ {
+  "id": "flashforge-foto-6-0",
+  "vendor": "Flashforge",
+  "name": "Flashforge Foto 6.0",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "fdg"
+  ]
+ },
+ {
+  "id": "flashforge-foto-8-9",
+  "vendor": "Flashforge",
+  "name": "Flashforge Foto 8.9",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "fdg"
+  ]
+ },
+ {
+  "id": "hifun-hf-l1-9k",
+  "vendor": "HIFUN",
+  "name": "HF-L1-9K",
+  "resolution_x": 8520,
+  "resolution_y": 4320,
+  "size_x": 153.36,
+  "size_y": 77.76,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "hifun-hf-l3-14k",
+  "vendor": "HIFUN",
+  "name": "HF-L3-14K",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "hifun-hf-l3-14k-pro",
+  "vendor": "HIFUN",
+  "name": "HF-L3-14K PRO",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 240.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "hifun-hf-l5-7k",
+  "vendor": "HIFUN",
+  "name": "HF-L5-7K",
+  "resolution_x": 6480,
+  "resolution_y": 3600,
+  "size_x": 298.08,
+  "size_y": 165.6,
+  "size_z": 350.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "hifun-hf-l6-8k",
+  "vendor": "HIFUN",
+  "name": "HF-L6-8K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 353.28,
+  "size_y": 198.72,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "jamg-he-sonic-mighty-revo-16k",
+  "vendor": "JAMG HE",
+  "name": "JAMG HE Sonic Mighty Revo 16k",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 235.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "longer-3d-orange10",
+  "vendor": "Longer 3D",
+  "name": "Longer 3D Orange10",
+  "resolution_x": 960,
+  "resolution_y": 1708,
+  "size_x": 55.44,
+  "size_y": 98.637,
+  "size_z": 140.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "lgs"
+  ]
+ },
+ {
+  "id": "longer-3d-orange30",
+  "vendor": "Longer 3D",
+  "name": "Longer 3D Orange30",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 170.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "lgs30"
+  ]
+ },
+ {
+  "id": "longer-3d-orange4k",
+  "vendor": "Longer 3D",
+  "name": "Longer 3D Orange4K",
+  "resolution_x": 6480,
+  "resolution_y": 3840,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 190.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "lgs4k"
+  ]
+ },
+ {
+  "id": "lyncase-lyn-cast-ly-01",
+  "vendor": "LYNcase",
+  "name": "LYN cast LY-01",
+  "resolution_x": 2560,
+  "resolution_y": 1440,
+  "size_x": 134.4,
+  "size_y": 75.6,
+  "size_z": 165.0,
+  "mirror": "none",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "megalabs-1",
+  "vendor": "Megalabs",
+  "name": "Megalabs 1",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 533.0,
+  "size_y": 299.812,
+  "size_z": 550.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "newbie-box-kylin-two",
+  "vendor": "Newbie Box",
+  "name": "Kylin Two",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 350.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "newbie-box-phoenix-one",
+  "vendor": "Newbie Box",
+  "name": "Phoenix One",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "nova3d-bene6",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Bene6",
+  "resolution_x": 4085,
+  "resolution_y": 2542,
+  "size_x": 142.977,
+  "size_y": 88.971,
+  "size_z": 180.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cws"
+  ]
+ },
+ {
+  "id": "nova3d-whale2",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale2",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 250.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cws"
+  ]
+ },
+ {
+  "id": "nova3d-whale2-pro",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale2 Pro",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "nova3d-whale3-pro",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale3 Pro",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cws"
+  ]
+ },
+ {
+  "id": "nova3d-whale3-se",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale3 SE",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cws"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "nova3d-whale3-super-14k",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale3 Super-14k",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cws"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "nova3d-whale3-ultar-14k",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale3 Ultar-14k",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "goo",
+   "ctb",
+   "zip"
+  ],
+  "native_formats": [
+   "cbddlp",
+   "ctb",
+   "photon",
+   "photons",
+   "zip",
+   "cws",
+   "slc",
+   "fhd",
+   "wow",
+   "gf",
+   "phz",
+   "svgx",
+   "fdg",
+   "goo",
+   "prz",
+   "qdt"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "nova3d-whale3-ultra-14k",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale3 Ultra-14k",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 260.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cws"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "nova3d-whale4",
+  "vendor": "Nova3D",
+  "name": "NOVA3D Whale4",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 220.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cws"
+  ]
+ },
+ {
+  "id": "peopoly-phenom",
+  "vendor": "Peopoly",
+  "name": "Peopoly Phenom",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 276.48,
+  "size_y": 155.52,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "peopoly-phenom-l",
+  "vendor": "Peopoly",
+  "name": "Peopoly Phenom L",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 345.6,
+  "size_y": 194.4,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "cbddlp",
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "peopoly-phenom-noir",
+  "vendor": "Peopoly",
+  "name": "Peopoly Phenom Noir",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 293.76,
+  "size_y": 165.24,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "peopoly-phenom-prime",
+  "vendor": "Peopoly",
+  "name": "Peopoly Phenom Prime",
+  "resolution_x": 5448,
+  "resolution_y": 3064,
+  "size_x": 277.848,
+  "size_y": 156.264,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "peopoly-phenom-xxl",
+  "vendor": "Peopoly",
+  "name": "Peopoly Phenom XXL",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 527.04,
+  "size_y": 296.46,
+  "size_z": 550.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-shuffle",
+  "vendor": "Phrozen",
+  "name": "Phrozen Shuffle",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 67.68,
+  "size_y": 120.32,
+  "size_z": 200.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip",
+   "slc"
+  ]
+ },
+ {
+  "id": "phrozen-shuffle-4k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Shuffle 4K",
+  "resolution_x": 2160,
+  "resolution_y": 3840,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 170.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "phrozen-shuffle-lite",
+  "vendor": "Phrozen",
+  "name": "Phrozen Shuffle Lite",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 170.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "phrozen-shuffle-xl",
+  "vendor": "Phrozen",
+  "name": "Phrozen Shuffle XL",
+  "resolution_x": 2560,
+  "resolution_y": 1600,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cbddlp",
+   "zip",
+   "slc"
+  ]
+ },
+ {
+  "id": "phrozen-shuffle-xl-lite",
+  "vendor": "Phrozen",
+  "name": "Phrozen Shuffle XL Lite",
+  "resolution_x": 2560,
+  "resolution_y": 1600,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cbddlp",
+   "zip"
+  ]
+ },
+ {
+  "id": "phrozen-sonic",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic",
+  "resolution_x": 1080,
+  "resolution_y": 1920,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 170.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "phrozen-sonic-4k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 134.4,
+  "size_y": 75.6,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mega-8k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mega 8K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 330.24,
+  "size_y": 185.76,
+  "size_z": 400.0,
+  "mirror": "none",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mega-8k-s",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mega 8K S",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 330.24,
+  "size_y": 185.76,
+  "size_z": 300.0,
+  "mirror": "none",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mega-8k-v2",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mega 8K V2",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 330.24,
+  "size_y": 185.76,
+  "size_z": 400.0,
+  "mirror": "none",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ]
+ },
+ {
+  "id": "phrozen-sonic-mighty-12k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mighty 12K",
+  "resolution_x": 11520,
+  "resolution_y": 5120,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 235.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mighty-4k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mighty 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 199.68,
+  "size_y": 124.8,
+  "size_z": 220.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mighty-8k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mighty 8K",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 218.88,
+  "size_y": 123.12,
+  "size_z": 235.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mighty-revo",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mighty Revo",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 235.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mighty-revo-16k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mighty Revo 16K",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 235.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-mini",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mini",
+  "resolution_x": 1080,
+  "resolution_y": 1920,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 130.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "phz"
+  ]
+ },
+ {
+  "id": "phrozen-sonic-mini-4k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mini 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 134.4,
+  "size_y": 75.6,
+  "size_z": 130.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "phrozen-sonic-mini-8k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mini 8K",
+  "resolution_x": 7500,
+  "resolution_y": 3240,
+  "size_x": 165.0,
+  "size_y": 71.28,
+  "size_z": 180.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "phrozen-sonic-mini-8k-s",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic Mini 8K S",
+  "resolution_x": 7536,
+  "resolution_y": 3240,
+  "size_x": 165.792,
+  "size_y": 71.28,
+  "size_z": 170.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "phrozen-sonic-xl-4k",
+  "vendor": "Phrozen",
+  "name": "Phrozen Sonic XL 4K",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "phrozen-transform",
+  "vendor": "Phrozen",
+  "name": "Phrozen Transform",
+  "resolution_x": 3840,
+  "resolution_y": 2160,
+  "size_x": 291.84,
+  "size_y": 164.16,
+  "size_z": 400.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "phrozen-sonic-mighty-revo-16k-max",
+  "vendor": "Phrozen",
+  "name": "Sonic Mighty Revo 16K Max",
+  "resolution_x": 15104,
+  "resolution_y": 6230,
+  "size_x": 302.4,
+  "size_y": 161.98,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "prz"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "piocreat-halot-sky-2025",
+  "vendor": "PIOCREAT",
+  "name": "HALOT-SKY 2025",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "piocreat-halot-x1",
+  "vendor": "PIOCREAT",
+  "name": "HALOT-X1",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "piocreat-halot-x1-max",
+  "vendor": "PIOCREAT",
+  "name": "HALOT-X1 Max",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 302.4,
+  "size_y": 161.98,
+  "size_z": 350.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "piocreat-c01",
+  "vendor": "PIOCREAT",
+  "name": "PIOCREAT C01",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "piocreat-c02",
+  "vendor": "PIOCREAT",
+  "name": "PIOCREAT C02",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 230.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "piocreat-pionext-mini",
+  "vendor": "PIOCREAT",
+  "name": "PioNext Mini",
+  "resolution_x": 4448,
+  "resolution_y": 3890,
+  "size_x": 80.0,
+  "size_y": 70.0,
+  "size_z": 80.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "piocreat-pionext-ultra",
+  "vendor": "PIOCREAT",
+  "name": "PioNext Ultra",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.0,
+  "size_y": 118.0,
+  "size_z": 100.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ],
+  "network": "halot"
+ },
+ {
+  "id": "pionext-c01",
+  "vendor": "PioNext",
+  "name": "C01",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ]
+ },
+ {
+  "id": "pionext-d158",
+  "vendor": "PioNext",
+  "name": "D158",
+  "resolution_x": 2560,
+  "resolution_y": 1440,
+  "size_x": 158.72,
+  "size_y": 89.28,
+  "size_z": 100.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cxline"
+  ]
+ },
+ {
+  "id": "pionext-d160",
+  "vendor": "PioNext",
+  "name": "D160",
+  "resolution_x": 2560,
+  "resolution_y": 1440,
+  "size_x": 158.72,
+  "size_y": 89.28,
+  "size_z": 100.0,
+  "mirror": "none",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "cxline"
+  ]
+ },
+ {
+  "id": "pionext-dj89-plus",
+  "vendor": "PioNext",
+  "name": "DJ89 PLUS",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.096,
+  "size_y": 128.304,
+  "size_z": 100.0,
+  "mirror": "lcd",
+  "formats": [
+   "cxdlpv4"
+  ],
+  "native_formats": [
+   "cxdlpv4"
+  ]
+ },
+ {
+  "id": "qidi-6-08-mono",
+  "vendor": "QIDI",
+  "name": "6.08 mono",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "machine_type": "QIDI 6.08 mono"
+ },
+ {
+  "id": "qidi-i-box-mono",
+  "vendor": "QIDI",
+  "name": "QIDI i-box mono",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "qidi-s-box",
+  "vendor": "QIDI",
+  "name": "QIDI S-box",
+  "resolution_x": 1600,
+  "resolution_y": 2560,
+  "size_x": 135.36,
+  "size_y": 216.576,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "qidi-shadow5-5s",
+  "vendor": "QIDI",
+  "name": "QIDI Shadow5.5s",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb",
+   "cbddlp"
+  ]
+ },
+ {
+  "id": "qidi-shadow6-0-pro",
+  "vendor": "QIDI",
+  "name": "QIDI Shadow6.0 Pro",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 74.52,
+  "size_y": 132.48,
+  "size_z": 150.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "sparkmaker-fhd",
+  "vendor": "SparkMaker",
+  "name": "SparkMaker FHD",
+  "resolution_x": 1920,
+  "resolution_y": 1080,
+  "size_x": 110.016,
+  "size_y": 61.885,
+  "size_z": 125.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "fhd"
+  ]
+ },
+ {
+  "id": "sparkmaker-original",
+  "vendor": "SparkMaker",
+  "name": "SparkMaker Original",
+  "resolution_x": 480,
+  "resolution_y": 854,
+  "size_x": 55.44,
+  "size_y": 98.673,
+  "size_z": 125.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "wow"
+  ]
+ },
+ {
+  "id": "stellar-1",
+  "vendor": "Stellar",
+  "name": "Stellar 1",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.78,
+  "size_y": 126.98,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ]
+ },
+ {
+  "id": "uniformation-gk3",
+  "vendor": "UniFormation",
+  "name": "UniFormation GK3",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 240.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "uniformation-gk3-pro",
+  "vendor": "UniFormation",
+  "name": "UniFormation GK3 Pro",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 211.68,
+  "size_y": 118.37,
+  "size_z": 240.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "uniformation-gk3-ultra",
+  "vendor": "UniFormation",
+  "name": "UniFormation GK3 Ultra",
+  "resolution_x": 15120,
+  "resolution_y": 6230,
+  "size_x": 302.4,
+  "size_y": 161.98,
+  "size_z": 300.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "uniformation-gktwo",
+  "vendor": "UniFormation",
+  "name": "UniFormation GKtwo",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 228.1,
+  "size_y": 128.3,
+  "size_z": 245.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "voxelab-ceres-8-9",
+  "vendor": "Voxelab",
+  "name": "Voxelab Ceres 8.9",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "fdg"
+  ]
+ },
+ {
+  "id": "voxelab-polaris-5-5",
+  "vendor": "Voxelab",
+  "name": "Voxelab Polaris 5.5",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 68.04,
+  "size_y": 120.96,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "fdg"
+  ]
+ },
+ {
+  "id": "voxelab-proxima-6",
+  "vendor": "Voxelab",
+  "name": "Voxelab Proxima 6",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 155.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "fdg"
+  ]
+ },
+ {
+  "id": "wanhao-cgr-mini-mono",
+  "vendor": "WanHao",
+  "name": "WanHao CGR MINI MONO",
+  "resolution_x": 1620,
+  "resolution_y": 2560,
+  "size_x": 82.62,
+  "size_y": 130.56,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "machine_type": "WanHao CGR Mini Mono"
+ },
+ {
+  "id": "wanhao-cgr-mono",
+  "vendor": "WanHao",
+  "name": "WanHao CGR MONO",
+  "resolution_x": 3840,
+  "resolution_y": 2400,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 180.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "machine_type": "WanHao CGR Mono"
+ },
+ {
+  "id": "wanhao-d7",
+  "vendor": "WanHao",
+  "name": "WanHao D7",
+  "resolution_x": 2560,
+  "resolution_y": 1440,
+  "size_x": 120.96,
+  "size_y": 68.5,
+  "size_z": 180.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "wanhao-d8",
+  "vendor": "WanHao",
+  "name": "WanHao D8",
+  "resolution_x": 2560,
+  "resolution_y": 1600,
+  "size_x": 192.0,
+  "size_y": 120.0,
+  "size_z": 180.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ },
+ {
+  "id": "x1-cfg-x1",
+  "vendor": "X1",
+  "name": "X1",
+  "resolution_x": 7680,
+  "resolution_y": 4320,
+  "size_x": 353.28,
+  "size_y": 198.72,
+  "size_z": 400.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "x1-mini",
+  "vendor": "X1",
+  "name": "X1 mini",
+  "resolution_x": 13320,
+  "resolution_y": 5120,
+  "size_x": 223.776,
+  "size_y": 126.976,
+  "size_z": 200.0,
+  "mirror": "lcd",
+  "formats": [
+   "ctb"
+  ],
+  "native_formats": [
+   "ctb"
+  ],
+  "network": "chitu-udp"
+ },
+ {
+  "id": "zortrax-inkspire",
+  "vendor": "Zortrax",
+  "name": "Zortrax Inkspire",
+  "resolution_x": 1440,
+  "resolution_y": 2560,
+  "size_x": 74.67,
+  "size_y": 132.88,
+  "size_z": 175.0,
+  "mirror": "lcd",
+  "formats": [
+   "zip"
+  ],
+  "native_formats": [
+   "zip"
+  ]
+ }
+]

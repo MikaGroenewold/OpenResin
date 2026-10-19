@@ -1,0 +1,67 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please search existing issues first.
+        Security problems go to the [private report form](https://github.com/MikaGroenewold/OpenResin/security/advisories/new) instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem, and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Import model …
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: OpenResin version
+      description: The version of the installer you used, or the commit if you built it yourself.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version / Linux distribution
+      placeholder: Windows 11 23H2, macOS 15, Ubuntu 24.04, Fedora 41, …
+  - type: input
+    id: printer
+    attributes:
+      label: Printer and output format
+      description: If the bug involves slicing, sending or the printer manager.
+      placeholder: ELEGOO Mars 5 Ultra, .goo
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots, logs or files
+      description: Attach screenshots, the error message, or a model/project file that shows the problem (if you can share it).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the existing issues and this hasn't been reported yet.
+          required: true

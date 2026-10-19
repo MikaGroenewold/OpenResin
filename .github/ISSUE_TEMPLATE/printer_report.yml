@@ -1,0 +1,53 @@
+name: Printer / file format compatibility
+description: Tell us how OpenResin works with your printer or a file format
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports from real printers help most – especially for formats and protocols marked "untested" or "experimental" in the README.
+  - type: input
+    id: printer
+    attributes:
+      label: Printer model
+      placeholder: ELEGOO Saturn 4 Ultra
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Printer firmware version
+      placeholder: V1.5.0
+  - type: input
+    id: format
+    attributes:
+      label: File format
+      placeholder: .goo, .ctb, .pwmx, .cxdlp, …
+  - type: dropdown
+    id: result
+    attributes:
+      label: Did the printed result look right?
+      options:
+        - Yes, printed correctly
+        - The file was rejected by the printer
+        - It printed, but something was wrong
+        - I only tested network features
+    validations:
+      required: true
+  - type: checkboxes
+    id: network
+    attributes:
+      label: Network features that worked
+      description: Leave unchecked what you didn't try or what failed.
+      options:
+        - label: Printer was found by discovery / adding by IP
+        - label: Live status
+        - label: Upload
+        - label: Start, pause, resume, stop
+        - label: Remote file manager (list, thumbnails, download, delete)
+        - label: Camera
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What went wrong, error messages, photos of the print, the OpenResin version and OS.

@@ -1,0 +1,17 @@
+[package]
+name = "openresin-formats"
+description = "Readers and writers for MSLA printer files (GOO, CTB, CXDLP, Photon Workshop, SL1, PNG zip)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+openresin-core.workspace = true
+rayon.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+zip.workspace = true
+image.workspace = true
+log.workspace = true

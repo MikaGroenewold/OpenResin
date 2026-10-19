@@ -1,0 +1,27 @@
+[package]
+name = "openresin-net"
+description = "LAN discovery, file transfer, print control and camera streaming for resin printers"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+log.workspace = true
+image.workspace = true
+tokio = { version = "1", features = ["net", "time", "sync", "macros", "rt", "io-util", "fs"] }
+tokio-tungstenite = "0.24"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+# LAN only: no TLS stack is compiled in on purpose.
+reqwest = { version = "0.12", default-features = false, features = ["multipart", "json", "stream"] }
+md-5 = "0.10"
+uuid = { version = "1", features = ["v4"] }
+if-addrs = "0.13"
+bytes = "1"
+openh264 = "0.6"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }

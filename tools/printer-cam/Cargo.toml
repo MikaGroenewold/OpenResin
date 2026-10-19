@@ -1,0 +1,15 @@
+[package]
+name = "printer-cam"
+description = "Small window that shows the camera stream of an Elegoo (SDCP) printer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+openresin-net.workspace = true
+anyhow.workspace = true
+image.workspace = true
+clap = { version = "4.5", features = ["derive"] }
+minifb = "0.29"
+tokio = { version = "1", features = ["rt-multi-thread", "signal", "time"] }

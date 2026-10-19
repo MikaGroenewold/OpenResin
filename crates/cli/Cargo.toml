@@ -1,0 +1,24 @@
+[package]
+name = "openresin-cli"
+description = "Command line interface for the OpenResin slicer and printer manager"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "openresin"
+path = "src/main.rs"
+
+[dependencies]
+openresin-core.workspace = true
+openresin-formats.workspace = true
+openresin-net.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+image.workspace = true
+clap = { version = "4.5", features = ["derive"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "signal", "time"] }
+
+[dev-dependencies]
+zip.workspace = true

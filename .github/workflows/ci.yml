@@ -1,0 +1,116 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    name: Test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+      - name: Linux system libraries
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf libssl-dev
+      - name: Formatting
+        if: runner.os == 'Linux'
+        run: cargo fmt --all --check
+      - name: Test core, formats, net, CLI and app backend
+        run: cargo test --workspace
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings
+
+  frontend:
+    name: Frontend tests and build
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - run: npm test
+        working-directory: app
+      - run: npm run typecheck:test
+        working-directory: app
+      - run: npm run build
+        working-directory: app
+
+  bundle:
+    name: Bundle (${{ matrix.name }})
+    needs: [test, frontend]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: linux-x64
+            os: ubuntu-22.04
+            args: ""
+          - name: windows-x64
+            os: windows-latest
+            args: ""
+          - name: macos-arm64
+            os: macos-latest
+            args: "--target aarch64-apple-darwin"
+          - name: macos-x64
+            os: macos-latest
+            args: "--target x86_64-apple-darwin"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.os == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+      - uses: Swatinem/rust-cache@v2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Linux system libraries
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf rpm
+      - run: npm ci
+        working-directory: app
+      - uses: tauri-apps/tauri-action@v0
+        with:
+          projectPath: app
+          args: ${{ matrix.args }}
+          tagName: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || '' }}
+          releaseName: ${{ startsWith(github.ref, 'refs/tags/v') && format('OpenResin {0}', github.ref_name) || '' }}
+          releaseDraft: true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: openresin-${{ matrix.name }}
+          path: |
+            target/**/release/bundle/**/*.msi
+            target/**/release/bundle/**/*.exe
+            target/**/release/bundle/**/*.dmg
+            target/**/release/bundle/**/*.AppImage
+            target/**/release/bundle/**/*.deb
+            target/**/release/bundle/**/*.rpm
+          if-no-files-found: ignore

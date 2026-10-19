@@ -1,0 +1,32 @@
+[package]
+name = "openresin-app"
+description = "OpenResin desktop application"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lib]
+name = "openresin_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+openresin-core.workspace = true
+openresin-formats.workspace = true
+openresin-net.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+log.workspace = true
+image.workspace = true
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tokio = { version = "1", features = ["rt-multi-thread", "sync", "time", "macros"] }
+dirs = "5"
+
+[dev-dependencies]
+# mock runtime for invoking the real commands in tests (same version as above)
+tauri = { version = "2", features = ["test"] }
+zip.workspace = true
